@@ -18,6 +18,7 @@ namespace ConsoleApplication1
 
         static decimal GetMoney(decimal start,decimal rate,int days)
         {
+
             for(var i = 0; i < days; i++)
             {
                 start += start * rate / 365;
