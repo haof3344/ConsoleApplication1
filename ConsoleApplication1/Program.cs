@@ -13,7 +13,7 @@ namespace ConsoleApplication1
 
             var result = GetMoney(120000, (decimal)0.041, 365*30);
             Console.WriteLine(result);
-            Console.Read();
+            Console.ReadKey();
         }
 
         static decimal GetMoney(decimal start,decimal rate,int days)
